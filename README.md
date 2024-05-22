@@ -66,8 +66,16 @@ Thanks to [Heroku](https://www.heroku.com/) we will be able to deploy our applic
 
 **6.** You can finally open up your Heroku application through the command `# heroku open --app <app-name>`
 
+# Demo Video
+
+https://github.com/vijaysanthoshp/Binary-Dog-Cat-Classification-Using-Docker/assets/143861101/a4b9dc42-1ea4-4aec-870b-03a090466523
+
+
+# Acknowledgement and Links
+
+h5 model link: https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
+
+dockerhub link: https://hub.docker.com/repository/docker/chanjhana/cat_dog_classifier/general
+
 # Contact
 
-Link to the related article in Towards Data Science [HERE](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
-
-Link to Twitter account [HERE](https://twitter.com/aissam_out)
