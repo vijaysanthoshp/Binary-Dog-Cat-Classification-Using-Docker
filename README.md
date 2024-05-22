@@ -6,13 +6,6 @@ As a case study, we’ll be creating a web interface for image recognition using
 
 You can check the detailed explanation on the article I wrote in Towards Data Science [here](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
 
-Without going into too much detail, this project consists of 4 major parts :
-
-## Build model : VGG19
-
-I've used use a pretrained (and effective) Convolutional Neural Network model for image classification : [VGG-19](https://arxiv.org/abs/1409.1556).
-
-[model.py](./model.py) describe how to load the model, preprocess images in order to be used by that model, and make predictions.
 
 ## Create API : Flask
 
@@ -40,17 +33,17 @@ In short, Docker allows us to create reproducible environments. To do so for the
 
 **4.** In a terminal, run the following command to build the Docker image:
   ```
-  # docker build -f Dockerfile -t recog_container:api .
+  # docker build -t my-flask-app .
   ```
 
 **5.** Run container in background and print container ID using:
 ```
-# docker run -p 5000:5000 -d recog_container:api
+# docker run -p 5000:5000 my-flask-app
 ```
 
 Once this is running, you should be able to view your app running in your browser at
 ```
-http://localhost:5000/upload
+http://127.0.0.1:5000/upload
 ```
 
 ## Deploy : Heroku
