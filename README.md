@@ -87,6 +87,6 @@ This project is licensed under the MIT License.
 
 
 # Contact
-for further details contact 
+For any inquiries or issues, please contact [vijaysanthoshpandiyaraj@gmail.com].
 
 
