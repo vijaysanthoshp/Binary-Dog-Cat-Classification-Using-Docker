@@ -51,25 +51,6 @@ Once this is running, you should be able to view your app running in your browse
 http://127.0.0.1:5000/upload
 ```
 
-## Deploy : Heroku
-
-<p align="center">
-<img src="./images/heroku.png" alt="heroku logo" width="350" height="100">
-</p>
-
-Thanks to [Heroku](https://www.heroku.com/) we will be able to deploy our application in the Cloud
-
-**1.** Create a new [Heroku account](https://signup.heroku.com/) if you don’t have one. Then download Heroku [Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) which makes it easy to create and manage your Heroku apps directly from the terminal.
-
-**2.** Login to your Heroku account using `# heroku login`
-
-**3.** Log in to Container Registry: `# heroku container:login`
-
-**4.** Create a new Heroku app: `# heroku create <app-name>`
-
-**5.** Build the image based on your Dockefile and push it to this particular app in Heroku `# heroku container:push web --app <app-name>`
-
-**6.** You can finally open up your Heroku application through the command `# heroku open --app <app-name>`
 
 # Demo Video
 
