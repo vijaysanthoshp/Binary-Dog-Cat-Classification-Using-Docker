@@ -1,11 +1,16 @@
-# ML-in-production
+# Intro
 
-In this tutorial we will try to walk together through all the building blocks of a Machine/Deep Learning project in production, i.e. a model that people can actually interact with
+This repository contains a Flask web application that allows users to upload images and receive predictions on whether the image is of a cat or a dog. The application leverages a pre-trained deep learning model (in H5 format) to make these predictions. Additionally, the entire application is containerized using Docker, ensuring a consistent and reproducible environment.
 
-As a case study, we’ll be creating a web interface for image recognition using the pretrained model VGG19.
+# Features
+ - User-friendly Interface: A simple web interface for uploading images.
+ - Accurate Predictions: Utilizes a pre-trained model to predict if the uploaded image is of a cat or a dog.
+ - Containerized Deployment: Dockerized application for easy setup and deployment.
 
-You can check the detailed explanation on the article I wrote in Towards Data Science [here](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
-
+# How It Works
+ - Upload Image: Users can upload an image through the web interface.
+ - Prediction: The uploaded image is passed to a pre-trained model which predicts whether the image is of a cat or a dog.
+ - Result: The prediction result is displayed on the web interface.
 
 ## Create API : Flask
 
@@ -75,7 +80,13 @@ https://github.com/vijaysanthoshp/Binary-Dog-Cat-Classification-Using-Docker/ass
 
 h5 model link: https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
 
-dockerhub link: https://hub.docker.com/repository/docker/chanjhana/cat_dog_classifier/general
+dockerhub link: https://hub.docker.com/repository/docker/vijaysanthoshp/flask_docker/general
+
+# License
+This project is licensed under the MIT License.
+
 
 # Contact
+for further details contact 
+
 
